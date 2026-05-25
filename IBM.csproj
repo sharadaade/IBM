@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>IBM.Basics.LengthConvertor</StartupObject>
+    <StartupObject>IBM.Basics.PowerOfNumber</StartupObject>
   </PropertyGroup>
 
 </Project>
