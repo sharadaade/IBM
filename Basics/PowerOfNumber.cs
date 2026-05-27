@@ -20,7 +20,7 @@ namespace IBM.Basics
         static void Main(string[] args)
         {
             PowerOfNumber obj = new PowerOfNumber();
-             int result = obj.NumberPower(5, 3);
+            int result = obj.NumberPower(5, 3);
             Console.WriteLine(result);
         }
         
