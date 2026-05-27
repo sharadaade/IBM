@@ -5,7 +5,11 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>IBM.Basics.DateTimeTest</StartupObject>
+    <StartupObject>IBM.StringOP.ReverseString</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="CollectionOP\" />
+  </ItemGroup>
 
 </Project>
