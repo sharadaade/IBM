@@ -6,8 +6,6 @@ namespace IBM.Basics
 {
     internal class PowerOfNumber
     {
-        int ok;
-
         public int NumberPower(int num, int pow)
         {
             int result = 1;

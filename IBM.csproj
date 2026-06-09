@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>IBM.Basics.EvenOdd</StartupObject>
+    <StartupObject>IBM.Ternary.CheckAlphabets</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
