@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>IBM.IfElse.MaxThreeNumber</StartupObject>
+    <StartupObject>IBM.IfElse.PositiveNegativeZero</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
