@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>IBM.IfElse.DayOfWeek</StartupObject>
+    <StartupObject>IBM.Basics.PrintYesterDayDate</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
