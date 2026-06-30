@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>IBM.LinqOP.SelectTopThree</StartupObject>
+    <StartupObject>IBM.LinqOP.SecondHighestSalary</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
