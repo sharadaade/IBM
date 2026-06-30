@@ -19,6 +19,14 @@ namespace IBM.LinqOP
                                            
 
             Console.WriteLine(seconHighSalary);
+
+            // After using OrderBy() or OrderByDescending() orginal unchanged
+
+            Console.WriteLine("Original : ");
+            foreach(var i in employees)
+            {
+                Console.WriteLine(i.Salary + " ");
+            }
         }
     }
 }
