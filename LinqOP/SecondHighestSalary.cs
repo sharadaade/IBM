@@ -15,8 +15,7 @@ namespace IBM.LinqOP
                                            .Distinct()
                                            .OrderByDescending(sal => sal)
                                            .Skip(1)
-                                           .FirstOrDefault();
-                                           
+                                           .FirstOrDefault();  
 
             Console.WriteLine(seconHighSalary);
 

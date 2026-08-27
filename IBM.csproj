@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>IBM.LinqOP.SumAndAvgSalary</StartupObject>
+    <StartupObject>IBM.LinqOP.SalarySorting</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
