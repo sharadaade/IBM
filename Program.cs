@@ -1,10 +1,13 @@
-﻿namespace IBM
+﻿using IBM.
+namespace IBM
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Main Method");
+            var allHostels = HostelData.Hotels;
+
+            List<Hotel> hostels = new List<Hotel>();
         }
     }
 }
