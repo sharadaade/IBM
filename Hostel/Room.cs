@@ -1,7 +1,7 @@
 public class Room
 {
     public int RoomId { get; set; }
-    public string RoomNumber { get; set; }
+    public string? RoomNumber { get; set; }
 
     public RoomType Type { get; set; }
     public decimal PricePerNight { get; set; }
@@ -10,7 +10,7 @@ public class Room
 
     // Relationship
     public int HotelId { get; set; }
-    public Hotel Hotel { get; set; }
+    public Hotel? Hotel { get; set; }
 
     // Relationships
     public List<Booking> Bookings { get; set; } = new();

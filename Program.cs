@@ -1,13 +1,16 @@
-﻿using IBM.
+﻿
 namespace IBM
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            var allHostels = HostelData.Hotels;
+            var allHotels = HostelData.Hotels;
 
-            List<Hotel> hostels = new List<Hotel>();
+            foreach(var hotel in allHotels)
+            {
+                Console.WriteLine($"Hotel:- {hotel.Name} Location:- {hotel.Address} Rating:- {hotel.StarRating}");
+            }
         }
     }
 }

@@ -9,7 +9,7 @@ namespace IBM.IfElse
         static void Main(string[] args)
         {
             Console.Write("Enter the year : ");
-            string strYear = Console.ReadLine();
+            string? strYear = Console.ReadLine();
 
             if(int.TryParse(strYear, out int year))
             {

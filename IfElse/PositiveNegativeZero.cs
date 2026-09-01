@@ -9,7 +9,7 @@ namespace IBM.IfElse
         static void Main(string[] args)
         {
             Console.Write("Enter the number : ");
-            string strNum = Console.ReadLine();
+            string? strNum = Console.ReadLine();
 
             if(int.TryParse(strNum, out int result))
             {

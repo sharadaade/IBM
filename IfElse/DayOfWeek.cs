@@ -9,7 +9,7 @@ namespace IBM.IfElse
         static void Main(string[] args)
         {
             Console.Write("Enter the day number : ");
-            string strDay = Console.ReadLine();
+            string? strDay = Console.ReadLine();
 
             if(int.TryParse(strDay, out int day))
             {
