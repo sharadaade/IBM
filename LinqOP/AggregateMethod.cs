@@ -7,7 +7,7 @@
             string[] fruits = { "apple", "mango", "orange", "passion", "grapes" };
 
             string longestFruit = fruits.Aggregate("banana",
-                                                    (longest, next) =>
+                                                   (longest, next) =>
                                                      next.Length > longest.Length ? next : longest,
                                                     fruit => fruit.ToUpper());
 
