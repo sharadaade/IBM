@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using IBM.Data;
 
 namespace IBM.LinqOP
 {
@@ -74,6 +75,20 @@ namespace IBM.LinqOP
                     Console.WriteLine("  {0}", name);
                 }
             }
+
+
+
+
+            // ==================== *** ====================
+            List<Employee> emps = DataList.GetEmployees();
+
+            List<Department> depts = DataList.GetDepartments();
+
+            //var deptWiseEmployeeCount = emps
+
+
+            Console.WriteLine();
+            
         }
     }
 }

@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>IBM.LinqOP.GroupByMethod</StartupObject>
+    <StartupObject>IBM.LinqOP.OrderByDescending</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

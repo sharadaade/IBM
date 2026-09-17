@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -18,7 +18,7 @@ namespace IBM.Data
 
     public class Department
     {
-        public int Id { get; set; }
+        public int DepartmentId { get; set; }
         public string Name { get; set; }
     }
     internal static class DataList
@@ -44,11 +44,11 @@ namespace IBM.Data
         {
             return new List<Department>
             {
-                new Department { Id = 1, Name = "HR" },
-                new Department { Id = 2, Name = "IT" },
-                new Department { Id = 3, Name = "Finance" },
-                new Department { Id = 4, Name = "Sales" },
-                new Department { Id = 5, Name = "Marketing" }
+                new Department { DepartmentId = 1, Name = "HR" },
+                new Department { DepartmentId = 2, Name = "IT" },
+                new Department { DepartmentId = 3, Name = "Finance" },
+                new Department { DepartmentId = 4, Name = "Sales" },
+                new Department { DepartmentId = 5, Name = "Marketing" }
             };
         }
     }
