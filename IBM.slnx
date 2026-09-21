@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../PrintAll/PrintAll.csproj" Id="ed190d6c-e78e-4779-8c87-bc797b7ea8d9" />
   <Project Path="IBM.csproj" />
 </Solution>
